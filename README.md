@@ -1,6 +1,6 @@
 # Course Follow-Along – Project Based on Mehmet Ozkaya's Repository
 
-This repository contains the source code from the course **"Develop Microservices on .NET 8"**, taught by [Mehmet Ozkaya]([https://github.com/[original-repo-link]](https://github.com/mehmetozkaya)).
+This repository contains the source code from the course **"Develop Microservices on .NET 8 used ASP.NET Web API, Docker, RabbitMQ, MassTransit, gRPC, Yarp Gateway, Redis,SqlServer"**, taught by [Mehmet Ozkaya]([https://github.com/mehmetozkaya]).
 
 The course covers ASP.NET Web API, Docker, RabbitMQ, MassTransit, gRPC, Yarp Gateway, Redis, and SQL Server.
 
