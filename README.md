@@ -10,7 +10,7 @@ I created this repository as part of my learning process by following along with
 
 ## Original Repository
 
-You can find the original project here: [https://github.com/[original-repo-link]](https://github.com/[original-repo-link])
+You can find the original project here: https://github.com/mehmetozkaya/EShopMicroservices
 
 ## License
 
