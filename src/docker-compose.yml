@@ -4,7 +4,12 @@ services:
   catalogdb:
     image: postgres
     environment:
-        POSTGRES_PASSWORD: postgres_password
+        POSTGRES_PASSWORD: postgres
+
+  basketdb:
+    image: postgres
+    environment:
+        POSTGRES_PASSWORD: postgres
 
   catalog.api:
     image: ${DOCKER_REGISTRY-}catalogapi
@@ -14,5 +19,6 @@ services:
 
 volumes:
   postgres_catalog:
+  postgres_basket:
   
 
