@@ -1,4 +1,5 @@
 
+using BuildingBlocks.Exceptions.Handler;
 using Marten;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -21,9 +22,15 @@ builder.Services.AddMarten(opts =>
 })
 .UseLightweightSessions();
 
+builder.Services.AddScoped<IBasketRepository, BasketRepository>();
+
+//Cross-Cutting Services
+builder.Services.AddExceptionHandler<CustomExceptionHandler>();
+
 var app = builder.Build();
 
 // Configure HTTP request pipeline
 app.MapCarter();
+app.UseExceptionHandler(options => { });
 
 app.Run();
